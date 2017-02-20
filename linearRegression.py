@@ -63,5 +63,7 @@ print(sum(x_test))
 # X is a matrix
 # y is last column in housing_test.csv
 # b is the optimal coefficients of the model
+
+# RSS is not correct
 rss = sum((y_test - (test_data_transpose/206 * x_test/206))) ** 2
 print(rss)
